@@ -191,6 +191,10 @@ Regarding the analysis itself, there are some open points that I couldn't addres
 - Unfortunately, the photo shooting area was not well-organized. In many pictures, there is a magnet in the foreground and many other magnets in the background. Does this affect the model, or is it helpful? I suspect this may have impacted the results: in all the confusion matrices, several backgrounds were interpreted as magnets. This suggests that the -model sometimes detects magnets where there aren’t any. This issue should be further investigated.
 - The color in the images. Due to limitations in the CAD image generator, I could only obtain grayscale images. To maintain consistency, I used grayscale real-world images as well. What if I had used color images instead? I made some attempts, and it seems that color models tend to overfit. However, this is another aspect that was only slightly touched upon. More intensive and rigorous work is required.
 
+## 9. Acknowledgments
+
+I sincerely acknowledge T. Hellert for his support (and infinite patience!) in this little project.
+
 ## References
 
 - Jupyter Notebook - Part I (CAD Images Generation) - [LINK1](https://github.com/emmetizeta/Image-Classifier-Using-Synthetic-Data-from-CAD-Models/blob/main/1_CAD_Images_Generator.ipynb)
