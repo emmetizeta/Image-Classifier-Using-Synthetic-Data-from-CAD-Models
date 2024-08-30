@@ -193,6 +193,8 @@ Regarding the analysis itself, there are some open points that I couldn't addres
 
 ## References
 
-Jupyter Notebook - Part I (CAD Images Generation) - [LINK1](https://github.com/emmetizeta/Image-Classifier-Using-Synthetic-Data-from-CAD-Models/blob/main/1_CAD_Images_Generator.ipynb)
-Jupyter Notebook - Part II (Analysis) - [LINK2](https://github.com/emmetizeta/Image-Classifier-Using-Synthetic-Data-from-CAD-Models/blob/main/2_Magnet_Classifier.ipynb)
-Presentation Slides - [LINK3](https://github.com/emmetizeta/Image-Classifier-Using-Synthetic-Data-from-CAD-Models/blob/main/Slides_Presentation_MagnetClassifier.pdf)
+- Jupyter Notebook - Part I (CAD Images Generation) - [LINK1](https://github.com/emmetizeta/Image-Classifier-Using-Synthetic-Data-from-CAD-Models/blob/main/1_CAD_Images_Generator.ipynb)
+
+- Jupyter Notebook - Part II (Analysis) - [LINK2](https://github.com/emmetizeta/Image-Classifier-Using-Synthetic-Data-from-CAD-Models/blob/main/2_Magnet_Classifier.ipynb)
+
+- Presentation Slides - [LINK3](https://github.com/emmetizeta/Image-Classifier-Using-Synthetic-Data-from-CAD-Models/blob/main/Slides_Presentation_MagnetClassifier.pdf)
