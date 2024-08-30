@@ -70,9 +70,7 @@ YOLO models are designed to detect and classify objects within an image in real 
 - **width**: The width of the object, normalized to the image width. The value ranges from 0 to 1, representing the object's width relative to the image width.
 - **height**: The height of the object, normalized to the image height. The value ranges from 0 to 1, representing the object's height relative to the image height.
 
-### 4.4 Reference Jupyter Notebook and Samples of Images Generated
-
-Jupyter notebook to generate the CAD dataset (images+labels): [LINK](https://github.com/emmetizeta/Image-Classifier-Using-Synthetic-Data-from-CAD-Models/blob/main/1_CAD_Images_Generator.ipynb)
+### 4.4 Samples of Images Generated
 
 ![image](https://github.com/user-attachments/assets/e71a67fc-7f41-4e68-8c4c-83a5a262ed63)
 
@@ -192,3 +190,9 @@ Regarding the analysis itself, there are some open points that I couldn't addres
 - Studying the effect of the selected real images. Are some images more effective than others? Is there a criterion for selecting specific images in terms of object position, lighting, distances, etc.?
 - Unfortunately, the photo shooting area was not well-organized. In many pictures, there is a magnet in the foreground and many other magnets in the background. Does this affect the model, or is it helpful? I suspect this may have impacted the results: in all the confusion matrices, several backgrounds were interpreted as magnets. This suggests that the -model sometimes detects magnets where there aren’t any. This issue should be further investigated.
 - The color in the images. Due to limitations in the CAD image generator, I could only obtain grayscale images. To maintain consistency, I used grayscale real-world images as well. What if I had used color images instead? I made some attempts, and it seems that color models tend to overfit. However, this is another aspect that was only slightly touched upon. More intensive and rigorous work is required.
+
+## References
+
+Jupyter Notebook - Part I (CAD Images Generation) - [LINK1](https://github.com/emmetizeta/Image-Classifier-Using-Synthetic-Data-from-CAD-Models/blob/main/1_CAD_Images_Generator.ipynb)
+Jupyter Notebook - Part II (Analysis) - [LINK2](https://github.com/emmetizeta/Image-Classifier-Using-Synthetic-Data-from-CAD-Models/blob/main/2_Magnet_Classifier.ipynb)
+Presentation Slides - [LINK3](https://github.com/emmetizeta/Image-Classifier-Using-Synthetic-Data-from-CAD-Models/blob/main/Slides_Presentation_MagnetClassifier.pdf)
